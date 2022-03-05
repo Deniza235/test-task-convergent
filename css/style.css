@@ -222,104 +222,77 @@ html {
 
 @media (max-width:768px) {
   .steps {
-    padding-top: 40px;
-  }
-
-  .steps__container {
-    padding: 153px 17px 65px 17px;
+    padding-top: 60px;
   }
 
   .steps__center-line {
     left: 47%;
   }
 
-  .steps__heading-wrapper {
-    padding-left: 80px;
-    top: -118px;
-    right: 97px;
-  }
-  
-  .steps__heading-wrapper.step-2 {
-    padding-left: 84px;
-    top: -101px;
-    right: 73px;
-  }
-  
-  .steps__heading-wrapper.step-3 {
-    padding-left: 84px;
-    top: -35px;
-    right: 85px;
-  }
-  
-  .steps__heading-wrapper.step-4 {
-    padding-left: 72px;
-    top: -96px;
-    right: 59px;
+  .steps__row{
+    width: calc(100% - 10px);
   }
 
-  .steps__heading-wrapper::before {
+  .steps__row::before {
     width: 17px;
     height: 17px;
-    top: 13px;
-  right: -103px;
+    top: 28px;
+    left: 46%;
   }
 
-  .steps__heading-wrapper.step-2::before {
-    top: 22px;
-    left: -64px;
+  .steps__row.step-2::before {
+    top: -141px;
   }
   
-  .steps__heading-wrapper.step-3::before {
-    top: 18px;
-    right: -92px;
+  .steps__row.step-3::before {
+    top: 334px;
   }
   
-  .steps__heading-wrapper.step-4::before {
-    top: 19px;
-    left: -71px;
+  .steps__row.step-4::before {
+    top: -33px;
   }
 
-  .steps__descr::after {
-    width: 70px;
-  } 
-
-  .steps__descr.step-1::after {
-    top: -97px;
-    right: 0;
+  .steps__row.step-1::after,
+  .steps__row.step-3::after {
+    width: 60px;
+    top: 35px;
+    left: 37%;
   }
-
-  .steps__descr.step-2::after,
-  .steps__descr.step-4::after {
+  
+  .steps__row.step-2::after,
+  .steps__row.step-4::after {
     width: 44px;
-    top: -72px;
-    left: -39px;
-  }
-    
-  .steps__descr.step-3::after {
-    top: -10px;
+    top: -134px;
+    left: 47%;
   }
   
-  .steps__descr.step-1 {
-    padding: 0 18px 19px 87px;
+  .steps__row.step-3::after {
+    top: 342px;
   }
   
+  .steps__row.step-4::after {
+    top: -27px;
+  }
+
+  .steps__descr {
+    padding-left: 77px;
+    width: calc(47% - 5px);
+  }
+
+  .steps__descr.step-1,
   .steps__descr.step-2,
+  .steps__descr.step-3,
   .steps__descr.step-4 {
-    padding: 0 3px 20px 92px;
-  }
-  
-  .steps__descr.step-3 {
-    padding: 65px 27px 17px 88px;
+    background-size: auto 60px;
   }
 
-
-  .steps__heading-wrapper.step-1,
-  .steps__heading-wrapper.step-2,
-  .steps__heading-wrapper.step-3,
-  .steps__heading-wrapper.step-4 {
-    background-size: auto 65px;
+  .steps__descr.step-2 {
+    top: -162px;
   }
-  
+
+  .steps__descr.step-4 {
+    top: -67px;
+}
 
   .steps__title {
     margin-bottom: 0;
