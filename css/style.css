@@ -484,7 +484,7 @@ html {
   }
 }
 
-@media (max-width:320px) {
+@media (max-width:325px) {
   .steps {
     padding: 34px 12px 75px 12px;
   }
